@@ -1,9 +1,9 @@
 
 # Weather App
 
-Its a weather app made using [React Native]("https://reactnative.dev/") and [Expo]("https://expo.dev")
+Its a weather app made using <a href="https://reactnative.dev/">React Native</a> and <a href="https://expo.dev">Expo</a>
 
-It uses [OpenWeatherMap.org]("https://openweathermap.org/")'s API to fetch weather data according the location of the user's mobile device.
+It uses <a href="https://openweathermap.org/">OpenWeatherMap.org</a>'s API to fetch weather data according the location of the user's mobile device.
 
 <img src="https://user-images.githubusercontent.com/55011445/155707864-e8e90b20-7306-4fae-a0d4-14aa49c1a928.jpg" width="300" align="left">
 
