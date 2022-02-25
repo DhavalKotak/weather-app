@@ -31,9 +31,9 @@ const App = () => {
 	let h = parseInt(moment().format("HH"))
 	let image = require("./assets/morning.jpg")
 	if (h > 19 || h <= 5) image = require("./assets/night.jpg")
-	// else if (h > 5 && h <= 11) image = require("./assets/morning.jpg")
-	// else if (h > 11 && h <= 16) image = require("./assets/afternoon.jpg")
-	// else image = require("./assets/evening.jpg")
+	else if (h > 5 && h <= 11) image = require("./assets/morning.jpg")
+	else if (h > 11 && h <= 16) image = require("./assets/afternoon.jpg")
+	else image = require("./assets/evening.jpg")
 
 	const getTemp = async (lat, lon) => {
 		if (weather.city === "") {
